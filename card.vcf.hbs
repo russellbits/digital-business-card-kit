@@ -1,0 +1,41 @@
+// File: templates/contact.vcf.hbs
+BEGIN:VCARD
+VERSION:3.0
+FN:{{firstName}} {{lastName}}
+N:{{lastName}};{{firstName}};;;
+{{
+#if
+ organization}}ORG:{{organization}}{{
+/if
+}}
+{{
+#if
+ title}}TITLE:{{title}}{{
+/if
+}}
+{{
+#if
+ email}}EMAIL;type=INTERNET;type=WORK:{{email}}{{
+/if
+}}
+{{
+#if
+ phone}}TEL;type=CELL:{{phone}}{{
+/if
+}}
+{{
+#if
+ address}}ADR;type=WORK:;;{{address.street}};{{address.city}};{{address.state}};{{address.zip}};{{address.country}}{{
+/if
+}}
+{{
+#if
+ url}}URL:{{url}}{{
+/if
+}}
+{{
+#if
+ note}}NOTE:{{note}}{{
+/if
+}}
+END:VCARD
