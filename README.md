@@ -37,7 +37,7 @@ You will need node.js installed on your computer.
 
 I've saved you at least $12! How about a tip? 😁
 
-|--|--|
-| ![Tip Jars](removeable-images/RussellbitsVenmoQRCode.png) | ![Tip Jars](removeable-images/RussellbitsPaypalQRCode.png) |
+![Venmo QR](removable-images/RussellbitsVenmoQRCode.png)
+![Paypal QR](removable-images/RussellbitsPaypalQRCode.png)
 
 
