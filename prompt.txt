@@ -1,0 +1,1 @@
+This will be the prompt that will be fed to Copilot or Claude and will generate the necessary images, QR Code card.vcf and build folder
